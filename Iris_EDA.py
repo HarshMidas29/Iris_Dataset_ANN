@@ -9,7 +9,7 @@ wr.filterwarnings('ignore')
 
 # loading and reading dataset
    
-df = pd.read_csv(r'C:\Users\Daham Yakandawala\Documents\Visual Studio 2017\ML_Module\Practicals\Iris_ANN\iris.data.csv')
+df = pd.read_csv(r'iris.data.csv')
 print(df.head())
 
 # shape of the data
