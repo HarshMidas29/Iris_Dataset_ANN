@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder
 from keras.models import Sequential
 from keras.layers import Dense
 
-df = pd.read_csv(r'C:\Users\Daham Yakandawala\Documents\Visual Studio 2017\ML_Module\Practicals\Iris_ANN\iris.data.csv')
+df = pd.read_csv(r'iris.data.csv')
 
 X = df.drop('Class', axis=1)
 y = df["Class"]
